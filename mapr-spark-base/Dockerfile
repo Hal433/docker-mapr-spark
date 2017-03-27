@@ -39,5 +39,5 @@ ENV PATH $SPARK_HOME/bin:$PATH
 #  && echo "export SPARK_DIST_CLASSPATH=$(hadoop classpath)" >> /opt/spark-$SPARK_VERSION/conf/spark-env.sh \
 #  && ln -s /usr/share/java/postgresql-jdbc4.jar /opt/spark-$SPARK_VERSION/jars/postgresql-jdbc4.jar
 
-ENTRYPOINT ["/entrypoints/spark-entrypoint.sh"]
+#ENTRYPOINT ["/entrypoints/spark-entrypoint.sh"]
 #CMD ["/entrypoints/runhistoryserver.sh"]
